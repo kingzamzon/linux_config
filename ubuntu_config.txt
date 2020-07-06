@@ -2,4 +2,6 @@ Double click action:
 
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
+Remove click action:
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
 
