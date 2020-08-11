@@ -1,0 +1,6 @@
+unable to install package 
+
+https://superuser.com/questions/1410570/cant-install-anything-on-kali-linux-unable-to-locate-package
+
+https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+
