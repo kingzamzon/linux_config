@@ -1,2 +1,6 @@
 chmod -R 777 storage
+mv ./composer.phar /usr/bin/composer
 
+COmposer installer page
+chmod +x ./composer.phar 
+mv ./composer.phar /usr/bin/composer
