@@ -4,3 +4,14 @@ https://superuser.com/questions/1410570/cant-install-anything-on-kali-linux-unab
 
 https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
 
+snap error could not locate snap/bin
+
+
+you can add the path into .bashrc file
+
+$ echo 'export PATH=$PATH:/snap/bin' >> ~/.bashrc
+
+open new terminal or execute this command
+
+$ source ~/.bashrc
+
