@@ -15,3 +15,6 @@ open new terminal or execute this command
 
 $ source ~/.bashrc
 
+uget download manager
+sudo apt-get install uget
+sudo apt-get install aria2
