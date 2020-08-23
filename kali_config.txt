@@ -18,3 +18,8 @@ $ source ~/.bashrc
 uget download manager
 sudo apt-get install uget
 sudo apt-get install aria2
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
+
+install deb software 
+sudo dpkg -i /path_to_deb_file

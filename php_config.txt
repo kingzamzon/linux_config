@@ -11,5 +11,7 @@ sudo apt-get install php7.3-mbstring
 Kali linux
 https://computingforgeeks.com/how-to-install-php-on-kali-linux/
 
+https://tecadmin.net/install-laravel-on-debian-9-stretch/
+
 set default
 sudo update-alternatives --set php /usr/bin/php7.3
