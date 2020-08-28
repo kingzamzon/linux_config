@@ -1,1 +1,8 @@
 sudo apt-get install tree
+
+if trying to install a package and it fails, the command below 
+will automatically fix the package error 
+
+apt --fix-broken install
+
+
