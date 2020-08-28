@@ -1,0 +1,5 @@
+if pip isnt working or it could not create environment using venv
+
+https://docs.python-guide.org/starting/install3/linux/
+
+https://pip.pypa.io/en/latest/installing/
