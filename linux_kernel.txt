@@ -5,4 +5,8 @@ will automatically fix the package error
 
 apt --fix-broken install
 
+extracting .tar.gz files
+tar -C /usr/local -xzf go1.15.linux-amd64.tar.gz
+
+
 
