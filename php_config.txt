@@ -13,5 +13,11 @@ https://computingforgeeks.com/how-to-install-php-on-kali-linux/
 
 https://tecadmin.net/install-laravel-on-debian-9-stretch/
 
+install php7.3 curl
+https://unix.stackexchange.com/questions/529823/how-to-install-php7-2-curl-on-a-debian-10-it-depends-on-libcurl3-that-is-not-av
+
+php version
+https://blog.suryaelite.com/2017/09/linux-how-to-set-default-version-of-php-in-ubuntu-16-04.html
+
 set default
 sudo update-alternatives --set php /usr/bin/php7.3
