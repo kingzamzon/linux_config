@@ -1,0 +1,14 @@
+starting service
+
+sudo systemctl start postgresql@12-main
+
+start postgresql on boot
+
+sudo service postgresql start
+
+run cli
+sudo -u postgres psql
+
+remove postresql 
+https://www.enterprisedb.com/edb-docs/d/postgresql/installation-getting-started/installation-guide-installers/10/PostgreSQL_Installation_Guide.1.19.html
+https://www.liquidweb.com/kb/how-to-remove-postgresql/
