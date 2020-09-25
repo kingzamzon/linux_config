@@ -12,3 +12,13 @@ sudo -u postgres psql
 remove postresql 
 https://www.enterprisedb.com/edb-docs/d/postgresql/installation-getting-started/installation-guide-installers/10/PostgreSQL_Installation_Guide.1.19.html
 https://www.liquidweb.com/kb/how-to-remove-postgresql/
+
+after installation
+open .bashrc
+export PATH=$PATH:/usr/lib/postgresql/12/bin
+
+source ~/.bashrc
+
+ERROR: psql: error: could not connect to server: FATAL:  role "adesanoye" does not exist
+CREATE USER adesanoye SUPERUSER;
+CREATE DATABASE adesanoye WITH OWNER adesanoye;
