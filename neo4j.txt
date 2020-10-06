@@ -1,0 +1,14 @@
+default 
+user: neo4j
+password: neo4j
+
+:play northwind-graph
+
+:play got Game of Thrones Interactions
+:play nasa NASA knowledge graph example
+:play ukcompanies UK company registration, property ownership, political donations
+:play stackoverflow Stack Overflow users, tags and Q&A data
+:play listings Airbnb listings data
+:play football_transfers Football (Soccer) transfer data
+
+
