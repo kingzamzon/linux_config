@@ -7,3 +7,7 @@ sudo ln -s /usr/local/lib/node /usr/lib/node
 sudo ln -s /usr/local/bin/npm /usr/bin/npm
 
 sudo ln -s $(whereis node) /usr/bin/node
+
+# NodeJS
+export NODEJS_HOME=/opt/nodejs/node-v15.0.1-linux-x64/bin
+export PATH=$NODEJS_HOME:$PATH
