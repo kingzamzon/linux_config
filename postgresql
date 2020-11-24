@@ -6,6 +6,10 @@ start postgresql on boot
 
 sudo service postgresql start
 
+pg_ctlcluster 13 main start
+
+
+
 run cli
 sudo -u postgres psql
 
