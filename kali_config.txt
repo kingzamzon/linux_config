@@ -21,6 +21,8 @@ sudo apt-get install aria2
 
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 
+sudo update-alternatives  --set python /usr/bin/python3.6
+
 install deb software 
 sudo dpkg -i /path_to_deb_file
 
@@ -30,4 +32,8 @@ Fix package post-installation script subprocess returned error exit status 10 fo
 sudo rm /var/lib/dpkg/info/libpaper1*
 sudo dpkg --configure -D 777 libpaper1
 sudo apt -f install
+
+
+How to remove systemd services
+https://superuser.com/questions/513159/how-to-remove-systemd-services
 
