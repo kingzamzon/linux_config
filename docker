@@ -1,0 +1,7 @@
+systemctl start docker
+systemctl enable docker
+systemctl restart docker
+
+
+sudo systemctl unmask docker
+sudo systemctl start docker
