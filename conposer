@@ -1,0 +1,13 @@
+Install composer
+
+sudo apt update
+
+wget -O composer-setup.php https://getcomposer.org/installer
+
+This install composer in the current directory.
+
+
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+Resource:
+https://linuxize.com/post/how-to-install-and-use-composer-on-debian-10/
