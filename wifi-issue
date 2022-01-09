@@ -1,0 +1,12 @@
+Fix wifi not coming up
+https://www.quora.com/Why-is-Kali-Linux-unable-to-detect-any-wireless-adapter-in-my-system
+
+Check the packages for the drivers are installed or not.
+
+Type the command “lspci” it will list the devices , check for the network controller, which company it is Intel or broadcomm.
+
+Install the package using the command
+
+“sudo apt-get install firmware-iwlwifi” for intel
+
+“sudo apt-get install firmware-b43-package” for broadcomm and restart your system.
